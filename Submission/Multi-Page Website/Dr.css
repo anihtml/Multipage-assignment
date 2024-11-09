@@ -1,0 +1,163 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: poppins;
+}
+
+body{
+    max-width: 1440px;
+    background-color: #f0f4f5;
+    overflow: hidden;
+    margin: auto;
+}
+
+
+
+/* Header Section Design */
+header{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px 80px;
+
+}
+
+header ul{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 40px;
+    margin-right: 150px;
+}
+
+header ul li{
+    list-style-type: none;
+}
+
+header ul li a{
+    text-decoration: none;
+    font-size: 15px;
+    font-weight: 700;
+    color: black;
+}
+
+header div img{
+    height: 50px;
+}
+
+/* Hero Section Design */
+
+.stethoscope{
+    z-index: -1;
+    position: absolute;
+    right: 600px;
+    top: 130px;
+}
+
+.stethoscope img{
+    height: 600px;
+    width: 600px;
+}
+
+.hero-section{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.topangle{
+    position: absolute;
+    left: 100px;
+    top: 150px;
+
+}
+.topangle img{
+    height: 25px;
+    width: 25px;
+}
+
+.lowangle{
+    position: absolute;
+    left: 750px;
+    top: 550px;
+}
+.lowangle img{
+    height: 25px;
+    width: 25px;
+}
+
+.left-section .mouse img{
+    height: 5px;
+    width: 5px;
+    }
+
+.mouse{
+    position: absolute;
+    left: 790px;
+    top: 570px;
+}
+
+
+
+.left-content{
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: center;
+    margin-left: 110px;
+    width: 550px;
+    gap: 30px;
+}
+
+.left-content h1{
+    font-size: 60px;
+}
+
+.doctor img{
+    height: 650px;
+    position: relative;
+    right: -48px;
+    bottom: 10px;
+}
+
+.left-content button{
+    background-color: #20BC7E;
+    color: white;
+    font-size: 20px;
+    font-weight: 700;
+    padding: 15px 45px;
+    border-radius: 50px;
+    border: none; 
+}
+
+/* Right Section */
+
+.green{
+    position: absolute;
+    right: -10px;
+    top: 110px; 
+}
+.orange{
+    position: absolute;
+    right: -10px;
+    top: 180px;
+}
+
+.orange{
+    height: 450px;
+    width: 450px;
+    border-radius: 50%;
+    z-index: -1;
+    background-color: #FFB87A;                     
+
+}
+.green{
+    height: 550px;
+    width: 550px;
+    border-radius: 50%;
+    z-index: -2;
+    background-color: #41d399;                     
+
+}
+

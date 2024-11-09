@@ -1,0 +1,94 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: poppins;
+}
+
+body{
+    max-width: 1440px;
+    background-color: #f0f4f5;
+    overflow: hidden;
+    margin: auto;
+}
+
+
+
+/* Header Section Design */
+header{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px 80px;
+
+}
+
+header ul{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 40px;
+    margin-right: 150px;
+}
+
+header ul li{
+    list-style-type: none;
+}
+
+header ul li a{
+    text-decoration: none;
+    font-size: 15px;
+    font-weight: 700;
+    color: black;
+}
+
+header div img{
+    height: 50px;
+}
+
+/* Form design */
+
+.form-container{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    border-radius: 10px;
+    height: 460px;
+    width: 360px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 100px;
+    box-shadow: 0 0 15px rgba(0, 0, 0, 1);
+}
+
+form{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    gap: 5px;
+}
+
+form input{
+    border: none;
+    border-radius: 10px;
+    padding: 7px 10px;
+}
+
+form textarea{
+    border: none;
+    border-radius: 10px;
+    resize: none;
+    padding: 10px;
+}
+
+form button{
+    color: white;
+    background-color: #20BC7E;
+    padding: 10px;
+    border: none;
+    border-radius: 10px;
+    font-size: 20px;
+    font-weight: 600;
+    cursor: pointer;
+}
